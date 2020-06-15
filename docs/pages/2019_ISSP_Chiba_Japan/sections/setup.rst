@@ -40,7 +40,7 @@ After the ssh key files are in place, add the following block to your
 
    Host aiidatutorial
       Hostname 127.0.0.1
-      Port 2222
+      Port 22
       User max
       IdentityFile ~/.ssh/aiida_tutorial
       ForwardX11 yes
